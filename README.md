@@ -4,6 +4,13 @@ Have modified the [original 2L-DRM](https://github.com/huancui/DRM_2LDRM). Now r
 
 Reference: [Dominguez et al. (2020)](https://journals.ametsoc.org/view/journals/hydr/21/1/jhm-d-19-0101.1.xml)
 
+### Simulations:
+1. Source simulation
+Use `drm2L_ERA5_grid_macro_lamb-ppc.c`.
+
+2. Sub-region simulation
+Use `drm2L_macro_8r_lambert_ppcorr.c`.
+
 ### Input files:
 1.	Forcing data:
 
@@ -46,7 +53,7 @@ Reference: [Dominguez et al. (2020)](https://journals.ametsoc.org/view/journals/
 | G** | yyyy_8MLCpc_ddd_LOWER2L.dat | ratio contributions from each grid to target region averaged from lower slab | 
 | H** | yyyy_8MLCpc_ddd_AVERA2L.dat | ratio contributions from each grid to target region averaged from upper and lower slabs | 
 
-(Regional contributions are weighted by precipitable water)
-("##" indicates abbreviation of target region name)
-("*" indicates outputs of the subregion simulation)
+(Regional contributions are weighted by precipitable water)\n
+("##" indicates abbreviation of target region name)\n
+("*" indicates outputs of the subregion simulation)\n
 ("**" indicates outputs of the source simulation)
